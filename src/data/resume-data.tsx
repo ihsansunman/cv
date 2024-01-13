@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -71,11 +52,10 @@ export const RESUME_DATA = {
       link: "https://ibb.istanbul",
       badges: [],
       title: "Frontend Developer",
-      logo: ParabolLogo,
       start: "2022",
       end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "I've been working as a Frontend developer at Istanbul Metropolitan Municipality, where I actively utilize React.js, JavaScript, Tailwind CSS, and Maplibre technologies in my projects to craft creative solutions.",
     }
   ],
   skills: [
@@ -89,15 +69,12 @@ export const RESUME_DATA = {
     {
       title: "IBB City Map",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS",
+        "Maplibre GL JS",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "The city map application developed by Istanbul Metropolitan Municipality not only provides efficient in-city navigation through its routing feature but also includes rich city information and features such as historical landmarks.",
       link: {
         label: "sehirharitasi.ibb.gov.tr",
         href: "https://sehirharitasi.ibb.gov.tr/",
@@ -105,10 +82,14 @@ export const RESUME_DATA = {
     },
     {
       title: "IBB Etkinlik Haritası",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      techStack: [
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS",
+        "Maplibre GL JS",
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "The Istanbul Metropolitan Municipality's event map application boasts features such as an event list, map location display, routing functionality, and effective filtering options. Users can easily explore and plan their participation in events by utilizing these features, enhancing their overall experience with the application.",
       link: {
         label: "etkinlikharitasi.ibb.gov.tr",
         href: "https://etkinlikharitasi.ibb.gov.tr/",
@@ -116,135 +97,23 @@ export const RESUME_DATA = {
     },
     {
       title: "asnus.com",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      techStack: ["Side Project", "Gatsby.js", "MDX"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Asnus is a project centered around technology articles, enriched by my personal contributions. I share insights into industry innovations and developments by featuring my own articles on this platform. Asnus provides a unique personal experience with original content that includes my own articles.",
       link: {
-        label: "github.com",
+        label: "asnus.com",
         href: "https://asnus.com/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Sayılarla İstanbul",
+      techStack: ["JavaScript", "React.js", "Material UI", "Maplibre GL JS"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Istanbul Metropolitan Municipality's data-driven initiative, this project presents numerically curated information for Istanbul residents. Designed to be publicly accessible, it serves as a platform showcasing relevant statistics and data provided by Istanbul Metropolitan Municipality, catering to the informational needs of the public.",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "sayilarlaistanbul.ibb.gov.tr",
+        href: "https://sayilarlaistanbul.ibb.gov.tr/",
       },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
