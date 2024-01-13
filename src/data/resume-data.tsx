@@ -20,102 +20,74 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "İhsan Sunman",
+  initials: "IS",
+  location: "Istanbul, Turkey",
+  locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Frontend Developer with 2+ years of experience in building web applications.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "I think I'm gonna have to write something about myself here.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/9339872?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ihsansunman@asnus.com",
+    tel: "+905421065299",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/ihsansunman",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ihsansunman/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ihsansunman",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Anatolian University",
+      degree: "Bachelor's Degree in Management Information Systems",
+      start: "2020",
+      end: "2022",
     },
+    {
+      school: "Eskişehir Technical University",
+      degree: "Associate's Degree in Computer Programming",
+      start: "2018",
+      end: "2020",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Istanbul Metropolitan Municipality",
+      link: "https://ibb.istanbul",
+      badges: [],
+      title: "Frontend Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "Present",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+    }
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js/Vite.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "CSS/SCSS/Tailwind CSS",
+    "Mapbox/MapLibre/Leflet",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "IBB City Map",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -127,30 +99,30 @@ export const RESUME_DATA = {
       description: "A platform to build and grow your online business",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "sehirharitasi.ibb.gov.tr",
+        href: "https://sehirharitasi.ibb.gov.tr/",
       },
     },
     {
-      title: "Monito",
+      title: "IBB Etkinlik Haritası",
       techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
       description:
         "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "etkinlikharitasi.ibb.gov.tr",
+        href: "https://etkinlikharitasi.ibb.gov.tr/",
       },
     },
     {
-      title: "Jarocki.me",
+      title: "asnus.com",
       techStack: ["Side Project", "Next.js", "MDX"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://asnus.com/",
       },
     },
     {
